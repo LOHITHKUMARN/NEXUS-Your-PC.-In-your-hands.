@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 160" width="100%" height="160">
+  <defs>
+    <linearGradient id="neonTitle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="45%" stop-color="#7C4DFF" />
+      <stop offset="100%" stop-color="#FF007F" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="100%" stop-color="#00E676" />
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="50%" stop-color="#0D1322" />
+      <stop offset="100%" stop-color="#141C30" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#7C4DFF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FF007F" stop-opacity="0.8" />
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Cyber Container -->
+  <rect x="3" y="3" width="944" height="154" rx="20" fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="2" />
+
+  <!-- Accent glow lines -->
+  <line x1="60" y1="4" x2="890" y2="4" stroke="#00E5FF" stroke-width="2" stroke-opacity="0.7" />
+  <line x1="120" y1="156" x2="830" y2="156" stroke="#7C4DFF" stroke-width="2" stroke-opacity="0.6" />
+
+  <!-- Main Glow & Title -->
+  <text x="475" y="72" text-anchor="middle" fill="url(#neonTitle)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="48" letter-spacing="4" filter="url(#neonGlow)">⚡ NEXUS ⚡</text>
+
+  <!-- Subtitle -->
+  <text x="475" y="112" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="20" letter-spacing="2.5">PC REMOTE DASHBOARD &amp; CONTROL CENTER</text>
+
+  <!-- Tagline pills -->
+  <text x="475" y="138" text-anchor="middle" fill="#00E5FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="12" letter-spacing="3" text-transform="uppercase">REAL-TIME TELEMETRY • PRECISION TRACKPAD • MULTI-DEVICE SUITE</text>
+</svg>

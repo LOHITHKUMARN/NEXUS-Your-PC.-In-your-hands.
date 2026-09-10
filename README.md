@@ -1,17 +1,19 @@
 <div align="center">
 
-<!-- Dynamic Neon Gradient Wave Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5&height=230&section=header&text=⚡%20NEXUS%20⚡&fontSize=54&fontAlignY=36&desc=PC%20Remote%20Dashboard%20%26%20Control%20Center&descAlignY=60&descSize=22&fontColor=ffffff&descColor=00E5FF" width="100%" alt="Nexus Header" />
+<!-- Local Neon Gradient Header Banner (100% Reliable, Rendered directly by GitHub) -->
+<a href="https://github.com/LOHITHKUMARN/NEXUS-Your-PC.-In-your-hands.">
+  <img src="frontend/assets/images/nexus_banner.svg" width="100%" alt="Nexus Header Banner" />
+</a>
 
-<!-- Colorful Typing SVG Subtitle Banner -->
-<p align="center">
-  <a href="https://github.com/LOHITHKUMARN/NEXUS-Your-PC.-In-your-hands.">
-    <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=800&size=26&duration=2500&pause=1000&color=00E5FF&center=true&vCenter=true&multiline=false&width=750&height=45&lines=⚡+Nexus+—+PC+Remote+Dashboard+%26+Control+Center;🎮+Sub-20ms+Remote+Trackpad+%2B+Virtual+Keyboard;📊+Real-Time+Hardware+Telemetry+(CPU%2C+GPU%2C+RAM);🎵+Studio+Audio+Switching+%26+Windows+SMTC;🌙+Zero-Wake+Monitor+Sleep+%26+Power+Automation" alt="Nexus Typing Banner" />
-  </a>
-</p>
+<br/><br/>
 
 <p align="center">
   <img src="frontend/assets/images/app_logo.png" alt="Nexus Logo" width="120" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/⚡%20NEXUS-00E5FF?style=for-the-badge&logoColor=white&labelColor=080C14" height="36" alt="Nexus" />
+  <img src="https://img.shields.io/badge/PC%20Remote%20Dashboard%20%26%20Control%20Center-7C4DFF?style=for-the-badge&labelColor=0D1322" height="36" alt="PC Control Center" />
 </p>
 
 **A high-performance, real-time PC telemetry dashboard, media controller, and precision remote input suite.**  
@@ -389,8 +391,8 @@ bat_desk/
 
 <div align="center">
 
-<!-- Waving Footer Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5&height=120&section=footer" width="100%" alt="Nexus Footer" />
+<!-- Local Footer Gradient Line (100% Reliable, Rendered directly by GitHub) -->
+<img src="frontend/assets/images/nexus_footer.svg" width="100%" alt="Nexus Footer" />
 
 <br/>
 
