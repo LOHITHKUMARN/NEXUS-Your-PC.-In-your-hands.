@@ -1,8 +1,18 @@
 <div align="center">
 
-<img src="frontend/assets/images/app_logo.png" alt="Nexus Logo" width="130" />
+<!-- Dynamic Neon Gradient Wave Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5&height=230&section=header&text=⚡%20NEXUS%20⚡&fontSize=54&fontAlignY=36&desc=PC%20Remote%20Dashboard%20%26%20Control%20Center&descAlignY=60&descSize=22&fontColor=ffffff&descColor=00E5FF" width="100%" alt="Nexus Header" />
 
-# ⚡ Nexus — PC Remote Dashboard & Control Center
+<!-- Colorful Typing SVG Subtitle Banner -->
+<p align="center">
+  <a href="https://github.com/LOHITHKUMARN/NEXUS-Your-PC.-In-your-hands.">
+    <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=800&size=26&duration=2500&pause=1000&color=00E5FF&center=true&vCenter=true&multiline=false&width=750&height=45&lines=⚡+Nexus+—+PC+Remote+Dashboard+%26+Control+Center;🎮+Sub-20ms+Remote+Trackpad+%2B+Virtual+Keyboard;📊+Real-Time+Hardware+Telemetry+(CPU%2C+GPU%2C+RAM);🎵+Studio+Audio+Switching+%26+Windows+SMTC;🌙+Zero-Wake+Monitor+Sleep+%26+Power+Automation" alt="Nexus Typing Banner" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="frontend/assets/images/app_logo.png" alt="Nexus Logo" width="120" />
+</p>
 
 **A high-performance, real-time PC telemetry dashboard, media controller, and precision remote input suite.**  
 Crafted with an adaptive Flutter UI for **Android phones** & **tablets**, backed by an asynchronous **FastAPI Windows Host Service**.
@@ -12,26 +22,29 @@ Crafted with an adaptive Flutter UI for **Android phones** & **tablets**, backed
   <a href="https://fastapi.tiangolo.com"><img src="https://img.shields.io/badge/FastAPI-0.110+-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" /></a>
   <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.10+-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
   <a href="https://microsoft.com/windows"><img src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6.svg?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/WebSocket-Sub--20ms%20Input-blueviolet.svg?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSocket" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Discovery-mDNS%20Zero--Config-orange.svg?style=for-the-badge" alt="mDNS" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/License-MIT-success.svg?style=for-the-badge" alt="License" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Input_Latency-Sub--20ms-7C4DFF.svg?style=for-the-badge&logo=lightning&logoColor=white" alt="Latency" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Telemetry-500ms_WS-FF007F.svg?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSocket" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Discovery-mDNS_Auto-00E676.svg?style=for-the-badge" alt="mDNS" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/License-MIT-FFD600.svg?style=for-the-badge&labelColor=0a0e1a" alt="License" /></a>
 </p>
 
 <p align="center">
-  <a href="#-core-features"><b>Core Features</b></a> •
-  <a href="#-adaptive-design--ui-layout"><b>UI & Design</b></a> •
-  <a href="#-system-architecture"><b>Architecture</b></a> •
-  <a href="#-quick-start"><b>Quick Start</b></a> •
-  <a href="#-connection--pairing-guide"><b>Connection Guide</b></a> •
-  <a href="#-security-architecture"><b>Security</b></a> •
-  <a href="#-troubleshooting"><b>Troubleshooting</b></a>
+  <a href="#-system-overview"><b>🌟 Overview</b></a> •
+  <a href="#-adaptive-design--ui-layout"><b>📱 Adaptive UI</b></a> •
+  <a href="#-precision-remote-trackpad--virtual-keyboard"><b>🖱️ Trackpad</b></a> •
+  <a href="#-real-time-hardware-telemetry"><b>📊 Telemetry</b></a> •
+  <a href="#-audio--media-command-deck"><b>🎵 Media</b></a> •
+  <a href="#-system-architecture"><b>🏗️ Architecture</b></a> •
+  <a href="#-quick-start-guide"><b>🛠️ Quick Start</b></a> •
+  <a href="#-connection--pairing-guide"><b>🌐 Connection</b></a> •
+  <a href="#-troubleshooting-matrix"><b>❓ Troubleshooting</b></a>
 </p>
 
 ---
 
 </div>
 
-## 🌟 Overview
+## <img src="https://img.shields.io/badge/⚡_NEXUS-SYSTEM_OVERVIEW-00E5FF?style=flat-square&labelColor=0D1117" height="24" /> System Overview
 
 **Nexus** transforms your mobile phone or tablet into a futuristic secondary display and command deck for your Windows PC. Whether docked beside your monitor or handheld from across the room, Nexus delivers instant hardware telemetry, low-latency trackpad gestures, media transport controls, and direct system automation over your local network.
 
@@ -50,7 +63,7 @@ Crafted with an adaptive Flutter UI for **Android phones** & **tablets**, backed
 
 ---
 
-## 📱 Adaptive Design & UI Layout
+## <img src="https://img.shields.io/badge/📱-ADAPTIVE_UI-7C4DFF?style=flat-square&labelColor=0D1117" height="24" /> Adaptive Design & UI Layout
 
 Nexus dynamically reconfigures its entire visual interface depending on your device's screen size and orientation:
 
@@ -59,16 +72,15 @@ Nexus dynamically reconfigures its entire visual interface depending on your dev
 | **📱 Phone** | `< 600dp` *(Portrait-first)* | • One-handed thumb navigation bar with 5 destinations<br>• Single-column vertically scrolling telemetry cards<br>• Paired mini-gauges & full-width sliders<br>• Persistent **Quick Controls** floating trigger (`⚡`) |
 | **📟 Tablet / Dock** | `≥ 840dp` *(Landscape docked)* | • Collapsible vertical `NavigationRail`<br>• Multi-column high-density dashboard grid<br>• Large circular radial dials with glow gradients<br>• Split-screen control and media views |
 
-### Visual Theme Engine
+### 🎨 Visual Theme Engine
 - **Cyber Dark (Default)**: Deep midnight obsidian base with neon cyan (`#00E5FF`) and electric violet (`#B388FF`) accents with glassmorphic cards (`GlassCard`).
 - **Midnight AMOLED**: Pure black background (`#000000`) for OLED power savings and contrast.
 - **Midnight Blue**: High-tech enterprise navy aesthetic.
 
 ---
 
-## 📱 Core Features
+## <img src="https://img.shields.io/badge/🖱️-TRACKPAD_%26_INPUT-FF007F?style=flat-square&labelColor=0D1117" height="24" /> Precision Remote Trackpad & Virtual Keyboard
 
-### 🖱️ Precision Remote Trackpad & Virtual Keyboard
 - **Dedicated Low-Latency WebSocket (`/api/input/ws`)**: Isolated from the 500ms telemetry pipeline for jitter-free sub-20ms cursor response.
 - **Smooth Cursor Dynamics**: Relative mouse displacement with client-side throttle buffer (~85Hz) and adjustable sensitivity (`0.5x`–`3.0x`, default `1.2x`).
 - **Multi-Touch Gestures**:
@@ -84,7 +96,10 @@ Nexus dynamically reconfigures its entire visual interface depending on your dev
 
 ---
 
-### 📊 Real-Time Hardware Telemetry (500ms Unified Stream)
+## <img src="https://img.shields.io/badge/📊-LIVE_TELEMETRY-00E676?style=flat-square&labelColor=0D1117" height="24" /> Real-Time Hardware Telemetry
+
+*Unified 500ms real-time telemetry stream across all your computer's vitals:*
+
 - **CPU**: Real-time utilization %, per-core breakdown, and live frequency (MHz).
 - **RAM**: Active memory %, used GB / total physical GB.
 - **GPU (Multi-Vendor)**:
@@ -97,7 +112,8 @@ Nexus dynamically reconfigures its entire visual interface depending on your dev
 
 ---
 
-### 🎵 Audio & Media Command Deck
+## <img src="https://img.shields.io/badge/🎵-AUDIO_%26_MEDIA-FFD600?style=flat-square&labelColor=0D1117" height="24" /> Audio & Media Command Deck
+
 - **Master Volume**: Smooth volume slider with mute toggle and $\pm 5\%$ nudging.
 - **Audio Output Switcher**: Live switching between headphones, speakers, and external DACs via Windows `IPolicyConfig` COM interface.
 - **Media Transport Controls**: Deep integration with Windows System Media Transport Controls (`winsdk`) for Spotify, YouTube, VLC, Apple Music, and web browsers.
@@ -105,7 +121,8 @@ Nexus dynamically reconfigures its entire visual interface depending on your dev
 
 ---
 
-### 🌙 Display & Power Automation
+## <img src="https://img.shields.io/badge/🌙-POWER_%26_DISPLAY-00B0FF?style=flat-square&labelColor=0D1117" height="24" /> Display & Power Automation
+
 - **Monitor Sleep (`🌙`)**: Instantly blanks the PC display without locking Windows, preserving active background jobs and phone connection.
 - **Monitor Wake (`☀️`)**: Instantly brings displays back to life with a single tap.
 - **Screen Brightness**: Native hardware brightness slider.
@@ -113,20 +130,22 @@ Nexus dynamically reconfigures its entire visual interface depending on your dev
 
 ---
 
-### 🚀 App Launcher & Task Monitor
+## <img src="https://img.shields.io/badge/🚀-APP_LAUNCHER-FF3D00?style=flat-square&labelColor=0D1117" height="24" /> App Launcher & Task Monitor
+
 - **1-Tap Launch**: Pre-configured allowlisted apps (Spotify, Chrome, VS Code, Steam, Discord, Terminal, Task Manager, Calculator) with active running indicators.
 - **Process Inspector**: Real-time list of top running processes sorted by RAM and CPU usage.
 
 ---
 
-### 🧰 Extras & Productivity Tools
+## <img src="https://img.shields.io/badge/🧰-TOOLS_%26_SYNC-AA00FF?style=flat-square&labelColor=0D1117" height="24" /> Extras & Productivity Tools
+
 - **Remote Clipboard**: Push text directly from your phone into the Windows clipboard.
 - **Open URL**: Send web links directly to your PC's default browser.
 - **Toast Notifications**: Dispatch native Windows desktop toast notifications from your phone.
 
 ---
 
-## 🏗️ System Architecture
+## <img src="https://img.shields.io/badge/🏗️-ARCHITECTURE-00E5FF?style=flat-square&labelColor=0D1117" height="24" /> System Architecture
 
 ```mermaid
 flowchart TB
@@ -169,7 +188,7 @@ flowchart TB
 
 ---
 
-## 🛠️ Quick Start
+## <img src="https://img.shields.io/badge/🛠️-QUICK_START-00E676?style=flat-square&labelColor=0D1117" height="24" /> Quick Start Guide
 
 ### 1. Windows Host Backend
 
@@ -222,7 +241,7 @@ flutter run -d chrome
 
 ---
 
-## 🌐 Connection & Pairing Guide
+## <img src="https://img.shields.io/badge/🌐-CONNECTIVITY-7C4DFF?style=flat-square&labelColor=0D1117" height="24" /> Connection & Pairing Guide
 
 Nexus offers 4 seamless connection methods depending on your network setup:
 
@@ -270,7 +289,7 @@ Nexus offers 4 seamless connection methods depending on your network setup:
 
 ---
 
-## 🛡️ Windows Firewall Setup
+## <img src="https://img.shields.io/badge/🛡️-FIREWALL-FF9100?style=flat-square&labelColor=0D1117" height="24" /> Windows Firewall Setup
 
 Windows Defender Firewall may block inbound traffic to Python by default.
 
@@ -289,7 +308,7 @@ New-NetFirewallRule -DisplayName "Nexus PC Control Port 8765" -Direction Inbound
 
 ---
 
-## ❓ Troubleshooting
+## <img src="https://img.shields.io/badge/❓-TROUBLESHOOTING-FF1744?style=flat-square&labelColor=0D1117" height="24" /> Troubleshooting Matrix
 
 | Issue | Root Cause | Solution |
 | :--- | :--- | :--- |
@@ -302,7 +321,7 @@ New-NetFirewallRule -DisplayName "Nexus PC Control Port 8765" -Direction Inbound
 
 ---
 
-## 🔒 Security Architecture
+## <img src="https://img.shields.io/badge/🔒-SECURITY-00E5FF?style=flat-square&labelColor=0D1117" height="24" /> Security Architecture
 
 - **Zero-Configuration mDNS**: Advertises `_pccontrol._tcp.local.` on the local subnet for effortless phone discovery.
 - **Pre-Shared API Key Authentication**: Pre-shared token required for all REST endpoints (`X-API-Key` header) and WebSocket connections.
@@ -316,7 +335,7 @@ New-NetFirewallRule -DisplayName "Nexus PC Control Port 8765" -Direction Inbound
 
 ---
 
-## 🧪 Automated Testing
+## <img src="https://img.shields.io/badge/🧪-TEST_SUITE-00E676?style=flat-square&labelColor=0D1117" height="24" /> Automated Testing
 
 ### Backend Unit & Integration Tests (Pytest)
 ```powershell
@@ -334,7 +353,7 @@ flutter test
 
 ---
 
-## 📁 Project Structure
+## <img src="https://img.shields.io/badge/📁-PROJECT_LAYOUT-7C4DFF?style=flat-square&labelColor=0D1117" height="24" /> Project Structure
 
 ```text
 bat_desk/
@@ -370,6 +389,11 @@ bat_desk/
 
 <div align="center">
 
-**Nexus** • Built with ❤️ using Flutter & FastAPI
+<!-- Waving Footer Wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5&height=120&section=footer" width="100%" alt="Nexus Footer" />
+
+<br/>
+
+**⚡ Nexus** • Built with ❤️ using Flutter & FastAPI
 
 </div>
