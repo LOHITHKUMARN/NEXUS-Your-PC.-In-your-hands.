@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+None/
+
+# Backend sensitive data & local runtime logs
+backend/data/api_key.txt
+backend/data/*.json
+backend/data/*.log
+
+# Flutter / Dart
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+**/doc/api/
+*.symbols
+*.map.json
+
+# Android build artifacts
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# Windows build artifacts
+**/windows/flutter/ephemeral/
+
+# IDE & Editor
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
